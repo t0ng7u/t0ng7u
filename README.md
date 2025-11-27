@@ -1,5 +1,4 @@
 <div align="center">
-
   <!-- 0. 动态欢迎条 -->
   <a href="https://github.com/t0ng7u">
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=FF6AC2&center=true&vCenter=true&width=435&lines=Hello%2C+I'm+t0ng7u;Code+like+a+Girl%2FGu;Pink+is+the+new+Black" alt="Typing SVG" />
@@ -19,24 +18,4 @@
       </td>
     </tr>
   </table>
-
-  <!-- 2. 连击火焰 (已修复 Broken Image) -->
-  <!-- 域名已更换为 demolab.com -->
-  <img src="https://streak-stats.demolab.com/?user=t0ng7u&theme=radical&hide_border=true&background=0D1117&ring=FF6AC2&fire=FF6AC2&currStreakLabel=FF6AC2&currStreakNum=FFFFFF&sideNums=FFFFFF&sideLabels=FFFFFF" alt="t0ng7u's Streak" />
-
-  <br/>
-  <br/>
-
-  <!-- 3. 动态活跃心电图 -->
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=t0ng7u&theme=react-dark&bg_color=0D1117&hide_border=true&color=FF6AC2&line=FF6AC2&point=FFFFFF">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=t0ng7u&theme=github-compact&hide_border=true&color=FF6AC2&line=FF6AC2&point=000000">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=t0ng7u&theme=react-dark&bg_color=0D1117&hide_border=true&color=FF6AC2&line=FF6AC2&point=FFFFFF" alt="Activity Graph" />
-  </picture>
-
-  <!-- 4. 奖杯 (如果还显示不出来，说明vercel服务暂时波动，过会儿就好) -->
-  <br/>
-  <br/>
-  <img src="https://github-profile-trophy.vercel.app/?username=t0ng7u&theme=radical&no-frame=true&margin-w=15&row=1&column=7" />
-
 </div>
