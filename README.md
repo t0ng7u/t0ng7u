@@ -1,19 +1,38 @@
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=t0ng7u&theme=radical&no-frame=true&margin-w=15&row=1&column=7">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophy.vercel.app/?username=t0ng7u&theme=buefy&no-frame=true&margin-w=15&row=1&column=7">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=t0ng7u&theme=react-dark&bg_color=0D1117&hide_border=true" />
-  </picture>
   
+  <!-- 第一部分：奖杯 (Trophies) -->
+  <!-- 自动切换深色/浅色模式 -->
   <picture>
     <source 
-      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=t0ng7u&layout=compact&theme=radical&hide_border=true&hide=html,css&bg_color=0D1117&title_color=FF6AC2&text_color=FFFFFF"
-      media="(prefers-color-scheme: dark)"
+      media="(prefers-color-scheme: dark)" 
+      srcset="https://github-profile-trophy.vercel.app/?username=t0ng7u&theme=radical&no-frame=true&margin-w=15&row=1&column=7"
     />
-    <source
-      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=t0ng7u&layout=compact&theme=buefy&hide_border=true&hide=html,css&title_color=FF6AC2"
-      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+    <source 
+      media="(prefers-color-scheme: light)" 
+      srcset="https://github-profile-trophy.vercel.app/?username=t0ng7u&theme=buefy&no-frame=true&margin-w=15&row=1&column=7"
     />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=t0ng7u&layout=compact&theme=buefy&hide_border=true&hide=html,css&title_color=FF6AC2" alt="Calcium-Ion's most used languages" height="170em" />
+    <!-- Fallback: 默认显示深色版 -->
+    <img src="https://github-profile-trophy.vercel.app/?username=t0ng7u&theme=radical&no-frame=true&margin-w=15&row=1&column=7" alt="Trophies" />
   </picture>
+  
+  <br />
+  <br />
+
+  <!-- 第二部分：年度活跃图 (Activity Graph) -->
+  <!-- 自动切换深色/浅色模式 -->
+  <picture>
+    <!-- 深色模式：使用你原本的 react-dark 主题 + 0D1117 背景 -->
+    <source 
+      media="(prefers-color-scheme: dark)" 
+      srcset="https://github-readme-activity-graph.vercel.app/graph?username=t0ng7u&theme=react-dark&bg_color=0D1117&hide_border=true&color=FF6AC2"
+    />
+    <!-- 浅色模式：使用 github-compact 主题，去掉黑背景，颜色改为默认或粉色 -->
+    <source 
+      media="(prefers-color-scheme: light)" 
+      srcset="https://github-readme-activity-graph.vercel.app/graph?username=t0ng7u&theme=github-compact&hide_border=true&color=FF6AC2"
+    />
+    <!-- Fallback: 默认显示深色版 -->
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=t0ng7u&theme=react-dark&bg_color=0D1117&hide_border=true&color=FF6AC2" alt="Activity Graph" />
+  </picture>
+
 </div>
